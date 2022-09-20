@@ -1,0 +1,47 @@
+.navbarmain{
+    height: 70px;
+    background-color: #002c42ea;
+    filter: contrast(-6.34);
+    filter:drop-shadow(0px 3px 7px #757575)
+}
+.navbarlogo{
+    height: 100%;
+}
+.imagelogo{
+    max-width: 100%;
+    max-height: 90%;
+    margin: 5px;
+    margin-left: 15px;
+  vertical-align: middle;
+
+}
+.navbartext{
+    color: whitesmoke;
+    display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 18px;
+  font-size: x-large;
+  /* font-weight: bold; */
+}
+.buttonLogout{
+    /* margin-right: 10px; */
+    margin-top: 3px;
+}
+.headerLayoutlogout{
+    margin-top: 3px;
+    padding-right: 10px;
+    display: table-cell;
+  text-align: right;
+}
+@media (max-width: 991px) {
+    /* .widgettext{
+        font-size: 10px;
+        line-height: 1;
+    } */
+    .navbartext{
+      margin-top: 18px;
+      font-size: large;
+      /* font-weight: bold; */
+    }
+}

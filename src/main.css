@@ -1,0 +1,26 @@
+.mainright{
+    min-height: 100vh;
+    background-color: rgb(227, 228, 227);
+    padding-left: 7px;
+}
+.row{
+    /* --bs-gutter-x: 0rem; */
+}
+.navbarmain{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 200;
+}
+.othercomponent{
+    margin-top: 70px;
+}
+.othercomponentnavbar{
+    margin-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.othercomponentLayoutSelect{
+    margin-top: 30vh;
+}

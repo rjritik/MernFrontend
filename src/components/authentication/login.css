@@ -1,0 +1,164 @@
+.bg-soft-primary {
+  background-color: rgba(85, 110, 230, 0.25) !important;
+}
+.img-fluid {
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+.avatar-md {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.bg-light {
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.rounded-circle img {
+  width: 72px !important;
+  padding-right: 0 !important;
+  margin: 19px;
+}
+.profile-user-wid {
+  margin-top: -26px;
+}
+
+.signText1 {
+  font-size: 13px;
+}
+
+.login-bg {
+  width: 100%;
+  padding-right: 0 !important;
+}
+.padl-0 {
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+.padt-txt {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.bg-gra {
+  background: rgb(50, 20, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 20, 254, 1) 0%,
+    rgba(158, 0, 159, 1) 100%
+  );
+}
+.padt-3 {
+  padding-top: 3px;
+}
+.inline-date-label {
+  margin: 0 8px 0 0;
+}
+
+/****NEW CSS****/
+img{max-width: 100%;}
+.account-pages{
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f7fc;
+}
+.login-wrapper.card{
+  border-radius: 15px;
+    box-shadow: 0 10px 40px #aeaeae7a;
+    border: 0;
+}
+.login-img{
+  height: 100%;
+  padding-left: 15px;
+}
+.login-img img{
+  width: 100%;
+  padding: 0;
+  max-width: 400px;
+}
+.login-right{
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.login-txthead {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+} 
+.signText {
+  text-align: center;
+  font-size: 15px;
+  color: #535353;
+  margin: 5px 0 35px;
+}
+.login-form .form-control{
+  height: 40px;
+  background-color: white !important;
+  border-color: #c0c0c0;
+  margin: 0;
+  padding-left: 27px;  
+  font-size: 13px !important;
+}
+.btn-primary,
+.btn-outline-primary:hover{
+  background-color: #006699 !important;
+  color: white;
+}
+.btn-outline-primary{
+  color: #006699;
+  border-color: #006699 !important;
+}
+.blue-btn{  
+  background-image: linear-gradient(45deg, #006699, #0481c0);
+  min-width: 130px;
+  padding: 12px !important;
+  color: white;
+}
+.login-wrapper .btn-primary{
+  background-image: linear-gradient(45deg, #006699, #0481c0);
+  min-width: 100px;
+  padding: 8px !important;
+  text-transform: uppercase;
+  font-size: 15px !important;
+  margin: 25px 0 20px;
+}
+.forgot-pwd-link{
+  font-size: 15px;
+  cursor: pointer;
+}
+.input-icon{
+  position: absolute;
+  color: #949494;
+  top: 12px;
+  left: 10px;
+  z-index: 9;
+}
+.custom-control-label.pt-1{
+  line-height: 1;
+}
+.formInput{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

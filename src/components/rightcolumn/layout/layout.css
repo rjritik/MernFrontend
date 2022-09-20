@@ -1,0 +1,131 @@
+.row{
+    --bs-gutter-x: 0rem;
+}
+.backgroundbutton{
+    display: inline-block;
+    margin-top: 4px;
+}
+.addwidgetmain{
+    display: inline-block;
+    /* padding-right: 5px; */
+}
+.headerLayoutgoback{
+    
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    cursor: pointer;
+}
+/* .headerLayoutgoback Button{
+    margin-top: 25px;
+} */
+.headerLayoutgoback div{
+    padding-top: 5px;
+    color: rgb(68, 68, 221);
+    float: right;
+    font-size: medium;
+    font-weight: lighter;
+    /* padding-right: 30px; */
+}
+.layoutcomponent{
+    margin-top: 10px;
+}
+.orcenter{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.addwidgetButton{
+    background-color: rgb(101, 167, 81);
+    margin-left: 10px;
+}
+.backup-dropdown{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.LayoutText{
+    font-weight: bold;
+    font-size:x-large;
+    display: inline-block;
+    margin-right: 20px;
+}
+.slideshareborder{
+    border-bottom: 1px dashed rgb(46, 46, 46);
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.availableSlideshares{
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.congratsgif{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin: 0.5%;
+    margin-bottom: 20px;
+}
+.activegif{
+    border: solid 4px #0b5ed7;
+    border-radius: 5%;
+}
+.slidetoadd{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.savelayoutbutton{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.errormessage{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.selectButton{
+    padding : 5px;
+}
+.marginLayout{
+    margin-bottom: 50vh;
+}
+.bgImage{
+    /* margin-top: 10px; */
+}
+.iconSaveLayout{
+    margin-right: 5px;
+}
+.mainClassLayouts{
+    padding-top: 10vh;
+}
+.editLayoutModal{
+    margin-bottom: 30vh;
+}
+.checkboxLayout{
+    transform: scale(1.4);
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.googlepickerbox{
+    z-index: 50000;
+}
+.modaleditLayout{
+    z-index: 1000;
+}
+
+.picker-dialog-bg {
+    z-index: 20000 !important;
+}
+
+.picker-dialog {
+    z-index: 20001 !important;
+}
+@media (max-width: 991px) {
+    .LayoutText{
+        margin-right: 5px;
+    }
+    .addwidgetButton{
+        margin-left: 2px;
+    }
+}

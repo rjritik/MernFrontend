@@ -1,0 +1,67 @@
+.SlideshowHeading{
+    font-weight: bold;
+    font-size:xx-large;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.slideheadingmain{
+    margin-bottom: 10px;
+}
+
+
+.slideheading{
+    margin-left: 4%;
+    padding-left: 20px;
+    margin-right: 20px;
+    border-radius: 2%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.slideheadingtitle{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size:x-large;
+    display: inline-block;
+    margin-right: 20px;
+}
+.Addslidebutton{
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.pictureslide{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.pictureslidename{
+    display: inline-block;
+}
+
+
+.websiteLink{
+    margin-bottom: 10px;
+}
+
+.orcenter{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.SlideButton{
+    margin-top: 10px;
+    display: flex;
+	  align-items: center;
+	  justify-content: center;
+    height: 100%;
+}
+.picker-dialog-bg {
+    z-index: 20000 !important;
+}
+
+.picker-dialog {
+    z-index: 20001 !important;
+}

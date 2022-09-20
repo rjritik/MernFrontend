@@ -1,0 +1,14 @@
+
+  .left-sidefixed-outer {
+    position: relative;
+    min-width: 21%;
+    max-width: 21%;
+  }
+  .mainDivDashboard {
+    left: 21%;
+    width: 79%;
+    /* padding: 15px; */
+    height: calc(100% - 75px);
+    overflow: auto;
+    top: 55px;
+  }

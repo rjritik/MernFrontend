@@ -1,0 +1,13 @@
+.faqmain{
+    text-align: center;
+}
+.faqmain h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.faqmain div{
+    font-size: 20px;
+    font-weight: normal;
+}

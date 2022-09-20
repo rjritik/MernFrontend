@@ -1,0 +1,344 @@
+.text-right {
+    text-align: right!important;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.header-btn {
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #006699;
+    padding: 4px 10px !important;
+    border-radius: 5px;
+}
+.header-btn :hover {
+    font-size: 14px;
+    font-weight: 500;
+    background: #006699;
+    /* border: 1px solid #006699; */
+    padding: 3px 10px !important;
+    border-radius: 5px;
+    color: white;
+}
+.ag-cell-label-container{
+    font-weight: 500;
+    font-size: medium;
+}
+.user-formAdmin{
+    padding: 5px;
+}
+.user-form{
+    padding: 15px;
+}
+
+
+.spanname{
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    transform: scale(1.25);
+    color: #006699;
+}
+.deleteUser{
+    cursor:pointer
+}
+
+
+
+
+.components {
+    text-align: center;
+    height: 100%;
+}
+
+.vertical {
+    padding-left: 0.1rem !important;
+    padding-right: 0.1rem !important;
+    width: 100%;
+    position: relative;
+    float: right;
+}
+
+.down {
+    padding-top: 100px;
+}
+
+table,
+th,
+td {
+    white-space: nowrap;
+
+}
+
+   .vertical{
+       
+       padding-left: 0.1rem !important;
+       padding-right: 0.1rem !important;
+       
+       width:100%;
+       position: relative;
+       float: right;
+   }
+   
+   
+   
+   .down{
+       padding-top: 100px;
+   }
+   
+   
+     .homeText{
+         text-align: center;
+         
+     }
+   
+   /* ----------------------- */
+   
+   .main-panel > .content {
+      /*  padding: 30px 15px;  */
+       min-height: calc(100% - 123px);
+   }
+   
+   .container-fluid {
+       padding-right: 15px;
+       padding-left: 15px;
+       margin-right: auto;
+       margin-left: auto;
+   }
+   .panel-header {
+       background: aliceblue;
+       border-radius: 4px 4px 0 0;
+   }
+   .panel {
+       margin-bottom: 20px;
+       background-color: #fff;
+       border: 1px solid transparent;
+       border-radius: 4px;
+       -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+       box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+   }
+   
+   .panel-primary {
+       border-color: #337ab7;
+   }
+   
+       .panel-primary > .panel-heading {
+           color: #fff;
+           background-color: #337ab7;
+           border-color: #337ab7;
+       }
+   
+   .panel-heading {
+       padding: 10px 15px;
+       border-bottom: 1px solid transparent;
+       border-top-left-radius: 3px;
+       border-top-right-radius: 3px;
+   }
+   
+   .panel-title {
+       margin-top: 0;
+       margin-bottom: 0;
+       font-size: 16px;
+   }
+   
+   .panel-body {
+       padding: 15px;
+       margin: 0 15px;
+   }
+   
+   .rightCard {
+       border-radius: 4px;
+       background-color: #fff;
+       margin-bottom: 30px;
+   }
+   
+       .rightCard .header {
+           padding: 3px 0;
+       }
+   
+       .rightCard .title {
+           margin: 0 3px 3px 10px;
+           color: #333;
+           font-weight: 300;
+       }
+   
+   .h4, h4 {
+       font-size: 22px;
+       line-height: 30px;
+   }
+   .label-name {
+       font-size: 13px;
+       font-weight: 400;
+       color: #636161;
+       width: 95px;
+       min-width: 95px;
+   }
+   .label-value {
+       font-size: 13px;
+       font-weight: 400;
+       color: #636161;
+   }
+   .custome-panel {
+       padding:16px;
+   }
+   .adapter-tablediv {
+       padding: 15px;
+   }
+   .panel-titleleft {
+       width: 60%;
+       float: left;
+       min-height: 15px;
+       padding: 9px 0;
+   }
+   .panel-titleright {
+       width: 40%;
+       float: left;
+       text-align: right;
+   }
+   .marr-7 {
+       margin-right: 7px;
+   }
+   .marb-15 {
+       margin-bottom: 15px;
+   }
+
+
+
+/* ----------------------- */
+
+.main-panel>.content {
+    /*  padding: 30px 15px;  */
+    min-height: calc(100% - 123px);
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panel-header {
+    background: aliceblue;
+    border-radius: 4px 4px 0 0;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.panel-primary {
+    border-color: #337ab7;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.panel-body {
+    padding: 15px;
+    margin: 0 15px;
+}
+
+.rightCard {
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.rightCard .header {
+    padding: 3px 0;
+}
+
+.rightCard .title {
+    margin: 0 3px 3px 10px;
+    color: #333;
+    font-weight: 300;
+}
+
+.h4,
+h4 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.label-name {
+    font-size: 13px;
+    font-weight: 400;
+    color: #636161;
+    width: 95px;
+    min-width: 95px;
+}
+
+.label-value {
+    font-size: 13px;
+    font-weight: 400;
+    color: #636161;
+}
+
+.custome-panel {
+    padding: 16px;
+}
+
+.adapter-tablediv {
+    padding: 15px;
+}
+
+.panel-titleleft {
+    width: 60%;
+    float: left;
+    min-height: 15px;
+    padding: 9px 0;
+}
+
+.panel-titleright {
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+
+.marr-7 {
+    margin-right: 7px;
+}
+
+.marb-15 {
+    margin-bottom: 15px;
+}
+
+.panel-body2 {
+
+    padding: 0 15px;
+}
+
+.linka {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.margin-top {
+    margin-top: 30px;
+}

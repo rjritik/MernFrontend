@@ -1,0 +1,134 @@
+body{
+/* margin: 20px */
+}
+.mainClass{
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  .custom-control {
+    /* margin-left: 10px; */
+    padding-top: 10px;
+  }
+  .form-boxdiv {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.form-boxtopline5 {
+    width: 100%;
+    height: auto;
+    background-color: #eaeef5;
+    border-radius: 2px 2px 0 0;
+    padding: 6px 15px;
+    text-align: left;
+    color: #000000;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+}
+
+.editBillboard{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.billboardImage {
+    margin-bottom: 20px;
+}
+
+.billboardImage iframe{
+    z-index: 100;
+    margin-bottom: 0px;
+    height: 100%;
+}
+.billboardImage .SubtitleWeather{
+    font-size: 5px;
+    display: none;
+}
+.billboardImage .SubHeadingWeatherCity{
+    font-size: 8px;
+}
+.billboardImage .SubHeadingWeather{
+    font-size: 7px;
+}
+
+.billboardImage .widgettext{
+    font-size: 8px;
+    line-height: 1;
+}
+.billboardImage .congratwidgets{
+    font-size: 4px;
+    line-height: 1;
+}
+.billboardImage .annHead{
+    font-size: 4px;
+    line-height: 1;
+}
+.billboardImage .mainlayout{
+    margin: 0;
+}
+.billboardImage .layoutRef{
+    padding: 0;
+}
+.layoutName{
+    font-size: 18px;
+}
+.datarows{
+    color: rgba(0, 0, 255, 0.658);
+    font-weight: 500;
+    font-size: 15px;
+    border-top: #53535369 0.3px solid;
+    margin-right: 10px;
+}
+.point{
+    cursor: pointer;
+    display:inline-block;
+}
+.dataheading{
+    font-size: 15px;
+    /* caption-side: bottom;
+    border-collapse: collapse; */
+    /* border-bottom: #242323b4 1.3px solid; */
+    margin-right: 10px;
+    margin-bottom: 0.6rem;
+}
+.ui{
+    margin: 5px;
+}
+
+.program-header{
+    font-size: larger;
+}
+
+.channelsTable .no-hover-bg:hover>td{
+    box-shadow: none;
+}
+.channelsTable th{
+    background: #002c42ce;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+.channelsTable td{
+    font-size: 13px;
+    cursor: pointer;
+}
+.channelsTable tbody{
+    border-top-width: 1px;
+}
+@media (min-width: 992px){
+    .billBoard-thumbnail{
+        /* width: 20% !important; */
+    }
+}
+.dasboardTH{
+    background-color: #002c42ea !important;
+    color: white !important;
+}
+    

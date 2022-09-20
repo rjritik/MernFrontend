@@ -1,0 +1,19 @@
+.layout-inner{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight:650;
+    font-size: large;
+    display: flex;
+    cursor: pointer;
+}
+.mainleft{
+    margin-top: 5%;
+}
+.active{
+    /* background-color: rgb(227, 228, 227); */
+}
+.Text{
+    margin-left: 10px;
+    
+}

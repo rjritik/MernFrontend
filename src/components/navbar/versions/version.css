@@ -1,0 +1,38 @@
+.npmversion{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.npmlabel{
+    padding-left:40px !important;
+}
+
+.mar-top-30{
+    margin-top: 30px !important;
+}
+.rcc-version-logo{
+    width: 150px;
+    height: 150px;
+    background: #16183a;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rcc-version-logo img{
+    width: 100%;
+    padding: 10px;
+}
+
+.rcc-version{
+    width: 150px;
+}
+.vcdms{
+    font-weight:bold;
+}
+.vcdms-version{
+    font-weight:lighter;
+}

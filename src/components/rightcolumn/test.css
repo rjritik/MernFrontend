@@ -1,0 +1,363 @@
+.widgetcontainer{
+    background-color: transparent;
+    border-radius: 2%;
+}
+.widgettext{
+    /* color: white; */
+    font-weight: bold;
+    font-size: medium;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.youtubeVideo{
+    /* margin-top: 5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%; 
+    border-radius: 2%;
+}
+.youtubeVideo iframe{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.iframeMain html{
+    overflow-y: overlay;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.iframeMain html::-webkit-scrollbar{
+    display: none;
+}
+.listclass{
+    /* background-color: white; */
+    border-radius: 2%;
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.listclass::-webkit-scrollbar{
+    display: none;
+}
+.listcontent{
+    /* color: black; */
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-top: 5px;
+    margin-bottom: 8px; */
+    padding-right: 8px;
+    /* background-color: rgb(255, 234, 220); */
+    filter: brightness(80%);
+
+}
+.activeDIv{
+    filter: brightness(170%);
+}
+
+.annHeading{
+    /* color: black; */
+    font-weight: bold;
+    font-size: larger;
+}
+.bar{
+    margin-left: 0px;
+}
+.annHeading{
+    padding-left: 5px;
+    display: inline-block;
+}
+.annHead{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.iconAnnouncement{
+    transform: scale(0.9);
+    margin-top: 5px;
+}
+.annContent{
+    /* color: black; */
+    font-weight: bold;
+}
+.congratwidgetsmain{
+    align-items: center;
+}
+.congratwidgets{
+    /* color: black; */
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90%;
+    
+}
+.congratsdiv{
+    /* font-family: cursive; */
+}
+.gifcongrats{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gif1{
+    
+    background: #ededed;
+}
+.gif2{
+    background: white;
+}
+.gif3{
+    background: #fdfdfd;
+}
+.imagecongrats{
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.8;
+}
+.picture{
+    max-width: 100%;
+    max-height: 100%;
+}
+.weatherImg{
+    max-width: 80%;
+    max-height: 80%;
+}
+.picturemain{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weatherMain{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.068);
+
+}
+.carouselmain{
+    border-radius: 2%;
+    width: fit-content;
+    height: 100%;
+}
+.removewidegt{
+    position: absolute;
+    right: 3px;
+    top: 0;
+    cursor: pointer;
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(95, 95, 95, 0.575);
+    border-radius: 10%;
+    color: white;
+    z-index: 1000;
+}
+.editwidegt{
+    position: absolute;
+    left: 3px;
+    top: 0;
+    cursor: pointer;
+    /* margin-top: 2px; */
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(95, 95, 95, 0.575);
+    border-radius: 10%;
+    color: white;
+    z-index: 1000;
+}
+.editwidegtSetting{
+    position: absolute;
+    left: 26px;
+    top: 0;
+    cursor: pointer;
+    /* margin-top: 2px; */
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(95, 95, 95, 0.575);
+    border-radius: 10%;
+    color: white;
+    z-index: 1000;
+}
+.removewidegt:hover{
+    background-color: rgba(100, 100, 100, 0.959);
+}
+.editwidegt:hover{
+    background-color: rgba(100, 100, 100, 0.959);
+}
+.editwidegticon{
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.removewidegtcross{
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.slidesharemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%; 
+    /* border: solid 10px rgb(58, 58, 58);
+    border-radius: 2%; */
+}
+.slidesharemain .carousel,
+.slidesharemain .carousel .carousel-inner,
+.slidesharemain .carousel .carousel-inner .carousel-item{
+    height: 100%;
+}
+.slidesharemain .carousel-item iframe{
+    width: 100%;
+    height: 100%;
+}
+.slidesharemain .App{
+    width: 100%;
+    height: 100%;
+}
+.slidesharemain .App .stories{
+    height: 100%;
+}
+@media all and (orientation:portrait) {
+    .imageslideshare{
+        width: auto;
+        height: 100%;
+        max-height: 40vh;
+    }
+}
+@media all and (orientation:landscape) {
+    .imageslideshare{
+        width: 100%;
+        height: auto;
+        /* Magic! */
+        max-width: 50vw;
+    }
+}
+.weathermainDiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    /* background: linear-gradient(to top, #48b8f5 0%, #02649c 100%); */
+    /* color: white; */
+}
+
+.SubHeadingWeatherCity{
+    /* font-size: x-large; */
+    font-weight:bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 1px; */
+}
+.SubHeadingWeather{
+    /* font-size: large; */
+    font-weight:bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 1px; */
+}
+.SubtitleWeather{
+    /* font-size: medium; */
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.placeCityWeather{
+    /* border-right: 2px solid white; */
+    align-self: center;
+}
+.layoutRef{
+    position: relative;
+}
+.layoutRef .bgImage{
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+}
+.addcontentheader{
+    margin-right: 10px;
+}
+.picker-dialog-bg {
+    z-index: 20000 !important;
+}
+
+.picker-dialog {
+    z-index: 20001 !important;
+}
+@media (max-width: 991px) {
+    .widgettext{
+        /* font-size: 10px; */
+        line-height: 1;
+    }
+    .widgettext{
+        /* font-size: 10px; */
+        line-height: 1;
+    }
+    .SubHeadingWeather{
+        /* font-size: 13px; */
+        /* padding-top: 1px; */
+    }
+    .SubHeadingWeatherCity{
+        /* font-size: 13px; */
+        /* padding-top: 1px; */
+    }
+    .SubtitleWeather{
+        /* font-size: 8px; */
+    }
+    .congratwidgets{
+        /* font-size: 40%; */
+        /* font-weight: bolder; */
+    }
+    .annHeading{
+        /* font-size: 40%; */
+        /* font-weight: bolder; */
+    }
+    .bar{
+        margin-left: 0px;
+    }
+    .annHeading{
+        padding: 0px;
+        margin: 0px;
+    }
+    .annHead{
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+    .iconAnnouncement{
+        transform: scale(0.3);
+        margin-top: 0px;
+    }
+    .annContent{
+        /* font-size: 6px; */
+        /* font-weight: normal; */
+    }
+}
