@@ -1,1 +1,1 @@
-# MernFrontend
+# rsd-customerportal-ui
